@@ -165,11 +165,6 @@ section{
 }
 @media  only screen and (max-width:700px) {
       
-      #header-img{
-            width:200pxpx;
-            margin:4vh 3vw;
-      }
-      
       header{
             position: fixed;
             display:flex;
@@ -179,12 +174,26 @@ section{
             background-color: rgb(237, 237, 237);
             justify-content: space-between;
             align-items: center;
+            padding-bottom: 15px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             
       }
+
+      #header-img{
+            width:360px;
+            margin:2vh auto;
+      }
+      .nav-link{
+            text-decoration: none;
+            color:black;
+            margin:auto 3vw;
+            font-size:1.1rem;
+
+      }
+      
       .features img{
             width:45px;
-            margin:22px 0 0 13vw;
+            margin:20px 0 0 10vw;
       }
       .pricing{
             display:flex;
@@ -193,6 +202,9 @@ section{
       }
       .form{
             margin-top:18vh;
+      }
+      #video{
+            width:400px;
       }
       
 }
