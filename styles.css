@@ -2,7 +2,7 @@
       margin:0;
       padding:0;
       text-align:center;
-      
+      scroll-behavior: smooth;
 }
 body{
       background-color: rgb(237, 237, 237);
@@ -34,8 +34,11 @@ header{
 .nav-link{
       text-decoration: none;
       color:black;
-      margin:auto 30px;
+      margin:0 30px;
       font-size:1.1rem;
+}
+li:hover{
+      background-color: rgb(195, 196, 197);;
 }
 .form{
       margin-top:8vh;
